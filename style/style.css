@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    justify-content: center;
+    width: 100%;        
+}
+
+.page{
+    display:flex;    
+    justify-content: center;
+    width: 80%;        
+    min-height: 500px;
+    
+    /* flex-direction: row; */
+}
+
+
+.page .left{
+    display:flex;
+    flex-direction: column;
+    width:30%;    
+    background-color:  #e6ffff;
+    
+}
+
+.page .right{
+    display:flex;
+    flex-direction: column;
+    width:70%;    
+    background-color:  #ffe6ee;
+    padding:10px;
+}
